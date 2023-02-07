@@ -9,7 +9,7 @@ import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import islom.din.dodo_ilmhona_proskills.databinding.FragmentHalfPizzaBinding
-import islom.din.dodo_ilmhona_proskills.viewModel.MyViewModel
+import islom.din.dodo_ilmhona_proskills.viewmodel.MyViewModel
 import kotlin.math.abs
 
 
