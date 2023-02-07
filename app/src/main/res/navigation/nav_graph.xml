@@ -22,4 +22,13 @@
             android:id="@+id/action_comboFragment_to_fragmetSelectPizza"
             app:destination="@id/fragmetSelectPizza" />
     </fragment>
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="islom.din.dodo_ilmhona_proskills.view.ShowFragment"
+        android:label="ShowFragment" />
+    <fragment
+        android:id="@+id/fragmentHalfPizza"
+        android:name="islom.din.dodo_ilmhona_proskills.view.half.FragmentHalfPizza"
+        android:label="fragment_half_pizza"
+        tools:layout="@layout/fragment_half_pizza" />
 </navigation>

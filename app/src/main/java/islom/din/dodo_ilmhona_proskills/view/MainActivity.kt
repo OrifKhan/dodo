@@ -4,9 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import islom.din.dodo_ilmhona_proskills.R
 import islom.din.dodo_ilmhona_proskills.databinding.ActivityMainBinding
-import islom.din.dodo_ilmhona_proskills.view.ViewPager.FragmentViewPager
-import islom.din.dodo_ilmhona_proskills.view.ViewPager.ViewPagerAdapter
-import islom.din.dodo_ilmhona_proskills.view.half.FragmentHalfPizza
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -14,10 +11,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.frame_layout, FragmentViewPager())
-            .commit()
-
     }
 }

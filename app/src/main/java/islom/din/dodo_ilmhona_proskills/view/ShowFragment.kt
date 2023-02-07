@@ -17,6 +17,7 @@ import androidx.core.view.get
 import androidx.core.view.isGone
 import androidx.core.view.size
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -29,8 +30,6 @@ import islom.din.dodo_ilmhona_proskills.databinding.ChipItemBinding
 import islom.din.dodo_ilmhona_proskills.databinding.ChipTextItemBinding
 import islom.din.dodo_ilmhona_proskills.databinding.DeleteIngridientItemBinding
 import islom.din.dodo_ilmhona_proskills.databinding.ViewShowFragmentBinding
-import islom.din.dodo_ilmhona_proskills.repository.GetVkusList
-import islom.din.dodo_ilmhona_proskills.view.half.FragmentHalfPizza
 
 
 private const val ARG_PARAM1 = "param1"
@@ -71,14 +70,13 @@ class ShowFragment : Fragment() {
         binding.imageShowOder.setImageResource(pizza.image)
         binding.nameShowder.text = pizza.name
         binding.description.text = pizza.name
-        binding.classic.setOnClickListener {
+      /*  binding.classic.setOnClickListener {
             requireActivity().supportFragmentManager.beginTransaction()
                 .add(
                     R.id.frame_layout, FragmentHalfPizza.newInstance()
                 ).commit()
 
-
-        }
+        }*/
         setupChipFurst()
         binding.nameShowder.setOnClickListener {
             val view = setupChip()
