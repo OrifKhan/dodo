@@ -1,7 +1,7 @@
 package islom.din.dodo_ilmhona_proskills.viewModel
 
 import islom.din.dodo_ilmhona_proskills.R
-import islom.din.dodo_ilmhona_proskills.data.Pizza
+import islom.din.dodo_ilmhona_proskills.model.Pizza
 import islom.din.dodo_ilmhona_proskills.model.Sous
 
 class MyViewModel {

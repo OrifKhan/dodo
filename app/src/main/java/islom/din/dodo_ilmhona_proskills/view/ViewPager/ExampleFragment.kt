@@ -5,10 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import islom.din.dodo_ilmhona_proskills.R
-import islom.din.dodo_ilmhona_proskills.data.Pizza
 import islom.din.dodo_ilmhona_proskills.databinding.ViewShowFragmentBinding
 import islom.din.dodo_ilmhona_proskills.databinding.ViewpagerLayoutBinding
+import islom.din.dodo_ilmhona_proskills.model.Pizza
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

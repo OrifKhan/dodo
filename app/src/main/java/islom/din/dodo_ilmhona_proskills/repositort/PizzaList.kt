@@ -1,8 +1,8 @@
-package islom.din.dodo_ilmhona_proskills.repository
+package islom.din.dodo_ilmhona_proskills.repositort
 
 
 import islom.din.dodo_ilmhona_proskills.R
-import islom.din.dodo_ilmhona_proskills.data.Pizza
+import islom.din.dodo_ilmhona_proskills.model.Pizza
 
 class GetPizzaList {
     fun getList(): List<Pizza> {
